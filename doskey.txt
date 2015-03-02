@@ -1,0 +1,7 @@
+ls=ls --classify --tabsize=0 --literal --color=auto --show-control-chars --human-readable
+ll=ls -la --human-readable  --color=auto
+subl="C:\Program Files\Sublime Text 3\sublime_text.exe" "$*"
+note="c:\Program Files (x86)\Notepad++\notepad++.exe" $*
+cd=cd /D $*
+s=cd..
+c=cls
